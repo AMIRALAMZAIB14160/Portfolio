@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alamzaib | Web Develepor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header Section start -->
     <section id="header">   
-        <div class="header container">
+        <div class="header-container">
             <div class="nav-bar">
                 <div class="brand">
                     <a href="#hero">
@@ -35,12 +36,17 @@
 
     <!-- Hero Section  Start -->
     <section id="hero">
-        <div class="hero container">
-            <div>
+        <div class="hero-container">
+            <div class="hero-title">
                 <h1>Hello, <span></span></h1>
-                <h1>My Name Is <span></span></h1>
-                <h1>Alamzaib <span></span></h1>
+                <h1>This Is <span>Alamzeb</span></h1>
+                <h1>Front End Web  Developer</h1>
+                <br><br> <br>
                 <a href="#projects" type="button" class="cta">Portfolio</a>
+            </div>
+            <div class="hero-img">
+                <div class="color-box"></div>
+                <img width="400" height="460" src="./Images/final-touch.png" alt="" class="hero-img">
             </div>
         </div>
     </section>
@@ -48,133 +54,156 @@
 
     <!-- Service Section Start -->
      <section id="services">
-        <div class="services container">
-            <div services-top>
+        <div class="services-container">
+            <div class="services-top">
                 <h1 class="section-title">Serv<span>i</span>ces</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit a, temporibus id eligendi sequi eaque repellendus corrupti earum repudiandae expedita inventore modi, 
                     nesciunt incidunt alias dolorum quia beatae. Nostrum modi obcaecati distinctio sequi maxime odio odit est necessitatibus. Distinctio fugit enim veritatis possimus 
                     quis ducimus, id alias recusandae? Numquam, quisquam!</p>
             </div>
-            <div class="services-bottom">
                 <!-- Service item 1 -->
                 <div class="service-item">
-                    <div class="icon"><img width="100" height="100" src="./Images/24-hours.png" alt=""></div>
-                    <h1>Web Design</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi temporibus dolor iusto eos qui. Velit assumenda aperiam, expedita ab enim rem ipsum quaerat sapiente voluptatum.
-                         Maxime placeat perferendis rem autem.</p>
+                    <div class="icon">
+                        <img width="100%" height="500" src="./Images/digital-marketing.jpg" alt="">
+                    </div>
+                        <div>
+                        <h1>Digital Marketing</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi temporibus dolor iusto eos qui. Velit assumenda aperiam, expedita ab enim rem ipsum quaerat sapiente voluptatum.
+                             Maxime placeat perferendis rem autem.</p>
+                        </div>
                 </div> 
-                
                 <!-- Service item 2 -->
                 <div class="service-item">
-                    <div class="icon"><img width="100" height="100" src="./Images/24-hours.png" alt=""></div>
-                    <h1>Web Design</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi temporibus dolor iusto eos qui. Velit assumenda aperiam, expedita ab enim rem ipsum quaerat sapiente voluptatum. Maxime placeat perferendis rem autem.</p>
+                    <div class="icon">
+                        <img width="100%" height="500" src="./Images/artificial-intelligence.jpg" alt="">
                     </div>
-                    <!-- Service item 3 -->
-                    <div class="service-item">
-                        <div class="icon"><img width="100" height="100" src="./Images/24-hours.png" alt=""></div>
-                        <h1>Web Design</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi temporibus dolor iusto eos qui. Velit assumenda aperiam, expedita ab enim rem ipsum quaerat sapiente voluptatum. Maxime placeat perferendis rem autem.</p>
+                        <div>
+                        <h1>Artificial-intelligence</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi temporibus dolor iusto eos qui. Velit assumenda aperiam, expedita ab enim rem ipsum quaerat sapiente voluptatum.
+                             Maxime placeat perferendis rem autem.</p>
                         </div>
-                    <!-- Service item 4 -->
-                    <div class="service-item">
-                        <div class="icon"><img width="100" height="100" src="./Images/24-hours.png" alt=""></div>
-                        <h1>Web Design</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi temporibus dolor iusto eos qui. Velit assumenda aperiam, expedita ab enim rem ipsum quaerat sapiente voluptatum. Maxime placeat perferendis rem autem.</p>
+                </div>  
+                   
+                 <!-- Service item 3 -->
+                 <div class="service-item">
+                    <div class="icon">
+                        <img width="100%" height="500" src="./Images/web-designing.jpg" alt="">
+                    </div>
+                        <div>
+                        <h1>web-designing</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi temporibus dolor iusto eos qui. Velit assumenda aperiam, expedita ab enim rem ipsum quaerat sapiente voluptatum.
+                             Maxime placeat perferendis rem autem.</p>
                         </div>
-            </div>
-        </div>
+                </div> 
+
+                 <!-- Service item 4 -->
+                 <div class="service-item">
+                    <div class="icon">
+                        <img width="100%" height="500" src="./Images/search-engine-optimization.jpg" alt="">
+                    </div>
+                        <div>
+                        <h1>Search-engine-optimization</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi temporibus dolor iusto eos qui. Velit assumenda aperiam, expedita ab enim rem ipsum quaerat sapiente voluptatum.
+                             Maxime placeat perferendis rem autem.</p>
+                        </div>
+                </div> 
      </section>
     <!-- Service Section End -->
 
     <!-- Projects Section Start -->
     <section id="projects">
-    <div class="projects container">
+    <div class="projects-container">
         <div class="projects-header">
             <h1 class="section-title">Recent <span>Projects</span></h1>
         </div>
-        <div class="all-projects ">
+        <d class="all-projects">
             <!-- project 1 -->
             <div class="project-item">
-                <div class="project-info">
+                <div class="project-description">
                     <h1>Project 1</h1>
                     <h2>HTML is Love</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis dolorem dolor doloremque quae unde! Repellat consectetur nisi quos saepe magnam fugiat. Provident accusantium sequi quia est sit magnam sint ullam, dolorum eum reiciendis rem deserunt doloremque quae natus necessitatibus minus quo ex beatae architecto soluta libero asperiores consectetur numquam unde.</p>
-                </div>
-                <div class="project-img">
-                    <img width="500" height="500" src="./Images/pexels-christina-morillo-1181263.jpg" alt="image of project 1">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, distinctio! Aliquam iste suscipit sed officia quisquam perspiciatis veniam reiciendis ducimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, accusamus eius consequatur corporis quaerat expedita rem adipisci cupiditate nemo totam maiores tenetur fugit! Nihil vitae sapiente impedit pariatur optio accusamus nam nemo numquam ratione,
+                        vero rerum quaerat eaque quae dicta exercitationem possimus odit iste, et, aut illo? Mollitia, odio maxime? Blanditiis dolorem </p>
+                    </div>
+                    <div class="icon-img">
+                     <img width="100%" height="100%" src="./Images/pexels-anna-shvets-5324853.jpg" alt="image of project 1">
                 </div>
             </div>
              <!-- project 2 -->
              <div class="project-item">
-                <div class="project-info">
+                <div class="project-description">
                     <h1>Project 1</h1>
                     <h2>HTML is Love</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis dolorem dolor doloremque quae unde! Repellat consectetur nisi quos saepe magnam fugiat. Provident accusantium sequi quia est sit magnam sint ullam, dolorum eum reiciendis rem deserunt doloremque quae natus necessitatibus minus quo ex beatae architecto soluta libero asperiores consectetur numquam unde.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, distinctio! Aliquam iste suscipit sed officia quisquam perspiciatis veniam reiciendis ducimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, accusamus eius consequatur corporis quaerat expedita rem adipisci cupiditate nemo totam maiores tenetur fugit! Nihil vitae sapiente impedit pariatur optio accusamus nam nemo numquam ratione,
+                        vero rerum quaerat eaque quae dicta exercitationem possimus odit iste, et, aut illo? Mollitia, odio maxime? Blanditiis dolorem </p>
+                    </div>
+                    <div class="icon-img">
+                     <img width="100%" height="100%" src="./Images/pexels-anna-shvets-5325104.jpg" alt="image of project 1">
                 </div>
-                <div class="project-img">
-                    <img width="500" height="500" src="./Images/pexels-christina-morillo-1181263.jpg" alt="image of project 1">
-                </div>
+            </div>
                  <!-- project 3 -->
-            <div class="project-item">
-                <div class="project-info">
-                    <h1>Project 1</h1>
-                    <h2>HTML is Love</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis dolorem dolor doloremque quae unde! Repellat consectetur nisi quos saepe magnam fugiat. Provident accusantium sequi quia est sit magnam sint ullam, dolorum eum reiciendis rem deserunt doloremque quae natus necessitatibus minus quo ex beatae architecto soluta libero asperiores consectetur numquam unde.</p>
-                </div>
-                <div class="project-img">
-                    <img width="500" height="500" src="./Images/pexels-christina-morillo-1181263.jpg" alt="image of project 1">
+                 <div class="project-item">
+                    <div class="project-description">
+                        <h1>Project 1</h1>
+                        <h2>HTML is Love</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, distinctio! Aliquam iste suscipit sed officia quisquam perspiciatis veniam reiciendis ducimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, accusamus eius consequatur corporis quaerat expedita rem adipisci cupiditate nemo totam maiores tenetur fugit! Nihil vitae sapiente impedit pariatur optio accusamus nam nemo numquam ratione,
+                            vero rerum quaerat eaque quae dicta exercitationem possimus odit iste, et, aut illo? Mollitia, odio maxime? Blanditiis dolorem </p>
+                        </div>
+                        <div class="icon-img">
+                         <img width="100%" height="100%" src="./Images/pexels-christina-morillo-1181263.jpg" alt="image of project 1">
+                    </div>
                 </div>
                  <!-- project 4 -->
-            <div class="project-item">
-                <div class="project-info">
-                    <h1>Project 1</h1>
-                    <h2>HTML is Love</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis dolorem dolor doloremque quae unde! Repellat consectetur nisi quos saepe magnam fugiat. Provident accusantium sequi quia est sit magnam sint ullam, dolorum eum reiciendis rem deserunt doloremque quae natus necessitatibus minus quo ex beatae architecto soluta libero asperiores consectetur numquam unde.</p>
-                </div>
-                <div class="project-img">
-                    <img width="500" height="500" src="./Images/pexels-christina-morillo-1181263.jpg" alt="image of project 1">
+                 <div class="project-item">
+                    <div class="project-description">
+                        <h1>Project 1</h1>
+                        <h2>HTML is Love</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, distinctio! Aliquam iste suscipit sed officia quisquam perspiciatis veniam reiciendis ducimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, accusamus eius consequatur corporis quaerat expedita rem adipisci cupiditate nemo totam maiores tenetur fugit! Nihil vitae sapiente impedit pariatur optio accusamus nam nemo numquam ratione,
+                            vero rerum quaerat eaque quae dicta exercitationem possimus odit iste, et, aut illo? Mollitia, odio maxime? Blanditiis dolorem </p>
+                        </div>
+                        <div class="icon-img">
+                         <img width="100%" height="100%" src="./Images/pexels-william-fortunato-6140676.jpg" alt="image of project 1">
+                    </div>
                 </div>
                  <!-- project 5 -->
-            <div class="project-item">
-                <div class="project-info">
-                    <h1>Project 1</h1>
-                    <h2>HTML is Love</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis dolorem dolor doloremque quae unde! Repellat consectetur nisi quos saepe magnam fugiat. Provident accusantium sequi quia est sit magnam sint ullam, dolorum eum reiciendis rem deserunt doloremque quae natus necessitatibus minus quo ex beatae architecto soluta libero asperiores consectetur numquam unde.</p>
+                 <div class="project-item">
+                    <div class="project-description">
+                        <h1>Project 1</h1>
+                        <h2>HTML is Love</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, distinctio! Aliquam iste suscipit sed officia quisquam perspiciatis veniam reiciendis ducimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, accusamus eius consequatur corporis quaerat expedita rem adipisci cupiditate nemo totam maiores tenetur fugit! Nihil vitae sapiente impedit pariatur optio accusamus nam nemo numquam ratione,
+                            vero rerum quaerat eaque quae dicta exercitationem possimus odit iste, et, aut illo? Mollitia, odio maxime? Blanditiis dolorem </p>
+                        </div>
+                        <div class="icon-img">
+                         <img width="100%" height="100%" src="./Images/pexels-sora-shimazaki-5926393.jpg" alt="image of project 1">
+                    </div>
                 </div>
-                <div class="project-img">
-                    <img width="500" height="500" src="./Images/pexels-christina-morillo-1181263.jpg" alt="image of project 1">
-                </div>
-            </div>
-            </div>
-            </div>
-            </div>
-        </div>
-    </div>
     </section>
     <!-- Projects Section End -->
 
     <!-- About Section Start -->
     <section id="about">
-        <div class="about container">
-            <div class="col-left">
-                <div class="about-img">
-                    <img width="500" height="500" src="./Images/pexels-ali-maloki-15041506.jpg" alt="image of a person">
-                </div>
-            </div>
+        <div class="about-header">
+            <h1 class="section-title">About <span>Me</span></h1>
+        </div>
+        <div class="about-container">
             <div class="col-right">
-                <h1 class="section-title">About <span>Me</span></h1>
-                <h2>Front End Develepor</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente provident corporis harum distinctio qui reiciendis ipsa repudiandae. Quam blanditiis alias vero, quasi velit facere rerum neque, distinctio illum quisquam dignissimos qui quaerat voluptates quibusdam nisi harum ex fuga libero earum eligendi quae eos ipsam commodi? Ipsum recusandae officiis fugiat voluptatibus fuga eum placeat amet in dicta hic, necessitatibus numquam temporibus laudantium, tempora porro ex illum. Odit in modi, eius quis quo nobis cum sapiente exercitationem iure facere corporis. Veniam, consequuntur.</p>
-                <a href="#" class="cta">Download Resume</a>
+                <h2>Front End Web Develepor</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente provident corporis harum distinctio qui reiciendis ipsa repudiandae. Quam blanditiis alias vero, quasi velit facere rerum neque, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eaque. distinctio illum quisquam dignissimos qui quaerat voluptates quibusdam nisi harum ex fuga libero earum eligendi quae eos ipsam commodi? Ipsum recusandae officiis fugiat voluptatibus fuga eum placeat amet in dicta hic, necessitatibus numquam temporibus laudantium, tempora porro ex illum. Odit in modi, eius quis quo nobis cum sapiente exercitationem iure facere corporis. Veniam, consequuntur.</p>
+                <br><br><br>
+                <a href="#" class="btn-2">Download Resume</a>
             </div>
+            <div class="col-left">
+                    <img width="90%" height="100%" src="./Images/bg-with-ai.png" alt="image of a person">
+                </div>
+                
+        </div>
         </div>
     </section>
     <!-- About Section End -->
 
     <!-- Contacts Section Start -->
     <section id="contacts">
-        <div class="contact container">
+        <div class="contact-container">
             <div>
                 <h1 class="section-title">Contact <span>Info</span></h1>
                 <div class="contact-items">
@@ -198,7 +227,7 @@
                      <div class="contact-item">
                         <div class="Icon"><img src="./Icons/icons8-place-marker-100.png"></div>
                         <div class="contact-info">
-                            <h1><Address></Address></h1>
+                            <h1>Address</h1>
                             <h3>Shop no #4, Street#02, Peshawar, Pakistan </h3>
                         </div>
                     </div>
@@ -211,12 +240,12 @@
     <!-- Contacts Section End -->
 
     <!-- Foote r Section Start -->
-    <section>
+    <section id="footer">
         <div id="footer">
-            <div class="footer container">
+            <div class="footer-container">
                 <div class="brand">
-                    <h1><span>A</span>lam <span>Z</span>eb</h1>
-                    <h2>Your complete Web Solution</h2>
+                    <!-- <h1><span>A</span>lam <span>Z</span>eb</h1> -->
+                    <h2>Your complete <span>Web Solution</span></h2>
                     <div class="social-icons">
                         <!-- Github -->
                         <div class="social-items">
@@ -224,11 +253,11 @@
                         </div>
                         <!-- Linkedin -->
                         <div class="social-items">
-                            <a href="#"><img src="./Icons/icons8-linkedin-100.png" alt=""></a>
+                            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><img src="./Icons/icons8-linkedin-100.png" alt=""></a>
                         </div>
                         <!-- Twitter -->
                         <div class="social-items">
-                            <a href="#"><img src="./Icons/icons8-twitter-100.png" alt=""></a>
+                            <a href="https://twitter.com/amiralamzaibgt"><img width="100" height="100" src="./Icons/icons8-twitter-100.png" alt=""></a>
                         </div>
                         <!-- Facebook -->
                         <div class="social-items">
